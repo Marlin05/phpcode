@@ -7,6 +7,8 @@
     $arr = glob('*.php');
     print_r($arr);
     
+//рекурсивная функция выводит tree dir
+
     function printDir($folder, $space = '') {
         $files = scandir($folder);
         foreach ($files as $file) {
