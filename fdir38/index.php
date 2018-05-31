@@ -1,4 +1,6 @@
 <?php
+//функции для работы с директориями
+
     mkdir('new dir');
     rmdir('new dir');
     
