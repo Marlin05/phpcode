@@ -22,5 +22,5 @@
     //printDir('W:\modules\conemu');
     
     
-   // echo file_exists('index.php');
+  
 ?>
