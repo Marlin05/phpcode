@@ -1,4 +1,7 @@
 <?php
+
+//функции для работы с файлами
+
     $handler = fopen('a.txt', 'a+');
     $count = 1;
     $str = '';
