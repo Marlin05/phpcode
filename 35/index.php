@@ -1,4 +1,7 @@
 <?php
+
+//функции для работы с файлами
+
     $handler = fopen('a.txt', 'a+');
     $count = 1;
     $str = '';
@@ -15,6 +18,9 @@
     //fwrite($handler, "\nNew String");
     fclose($handler);
     
+
+   // echo file_exists('index.php'); // функция возвращает true, если файл существует или false
+
     echo '<br />';
     $str = file_get_contents('a.txt');
     echo $str.'<br />';
