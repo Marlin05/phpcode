@@ -1,0 +1,14 @@
+.selected{
+	padding: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background-color: #79D9FF;
+	color: #fff!important;
+}
+header .top-line li p {
+color: #35addc;
+}
+header .top-line .project-start {
+	display: inline-block;}

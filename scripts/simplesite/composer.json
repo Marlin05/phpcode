@@ -1,0 +1,40 @@
+{
+    "name": "Marlin05/astrovok",
+    "description": "site",
+    "keywords": ["example"],
+    "homepage": "http://github.com/Marlin05/",
+    "type": "project",
+    "license": " Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Marlin05",
+            "email": "livadi17@gmail.com"
+        }
+    ],
+   
+    
+    "minimum-stability": "stable",
+    "require": {
+           "php": ">=5.4.0",
+          "zendframework/zend-log": "*",
+
+          "php": ">=5.4.0",
+          "monolog/monolog": "*"
+      },
+
+
+
+
+    "require-dev": {
+        
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset":{
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+[2018-07-12 11:44:18] DEBUG LOGGER.DEBUG: First degug message {"user":"admin","time":"11:44:18.12.07.2018"} []
+[2018-07-12 11:51:05] DEBUG LOGGER.DEBUG: First degug message {"user":"admin","time":"11:51:05.12.07.2018"} []
+[2018-07-12 11:51:38] DEBUG LOGGER.DEBUG: First degug message {"user":"admin","time":"11:51:38.12.07.2018"} []
+[2018-07-12 11:57:31] DEBUG LOGGER.DEBUG: First degug message {"user":"admin","time":"11:57:31.12.07.2018"} []
