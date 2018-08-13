@@ -51,4 +51,6 @@ SELECT salers.sname, customers.cname, salers.city FROM salers, customers WHERE s
 SELECT salers.sname, customers.cname, salers.city FROM salers, customers WHERE salers.snum = customers.snum ORDER BY salers.sname;
 
 -- 18 псевдоним таблицы   s= sname и т.д.
+--после FROM указываем псевдонимы salers = s customers = c
 SELECT s.sname, c.cname, s.city FROM salers s, customers c WHERE s.snum = c.snum ORDER BY s.sname;
+
