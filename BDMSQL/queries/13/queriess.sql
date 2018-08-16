@@ -4,6 +4,7 @@ CREATE DATABASE IF NOT EXISTS `sql2` DEFAULT CHARACTER SET utf8 COLLATE utf8_gen
 -- 2 Создание таблиц
 CREATE TABLE [IF NOT EXISTS] `tbl_name` (
 	`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+	`name` varchar(255) NOT NULL,
 	PRIMARY KEY (`id`)
 ) ENGINE=MyISAM;
 
