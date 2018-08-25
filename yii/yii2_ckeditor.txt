@@ -1,0 +1,20 @@
+1. Идём в https://github.com/MihailDev/yii2-ckeditor, забираем архив.
+
+2. Смотрим его composer.json. Там у нас есть секция autoload, в ней mihaildev\\ckeditor\\
+"autoload": {
+    "psr-4": {"mihaildev\\ckeditor\\": ""}
+},
+
+3. Распаковываем файлы в vendor/mihaildev/ckeditor
+
+4. В vendor/composer/autoload_psr4.php добавляем:
+'mihaildev\\ckeditor\\' => array($vendorDir . '/mihaildev/ckeditor'),
+
+5. В vendor/yiisoft/extensions.php добавляем:
+'mihaildev/ckeditor' => array (
+    'name' => 'mihaildev/ckeditor',
+    'version' => '2',
+    'alias' => array (
+        '@mihaildev/ckeditor' => $vendorDir . '/mihaildev/ckeditor',
+    ),
+),
